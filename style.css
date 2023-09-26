@@ -1,0 +1,112 @@
+.header {
+background-color: black;
+  text-align: center;
+  padding: 50px;
+  color: white;
+  font-size: 300%;
+  margin-bottom: -20px;
+margin-top: -15px;
+margin-left: -10px;
+margin-right: -10px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: red;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.topnav  {
+  float: center;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  margin-left:-15px;
+  }
+
+.column1 {
+  float: left;
+  width: 505px;
+  height: 250px; 
+  background: #ccc;
+  padding: 20px;
+  margin-top: -20px;
+  margin-left: -8px;
+  
+}
+.article {
+  float: right;
+  padding: 20px;
+  width: 857px;
+  background-color: #f1f1f1;
+  height: 300px; 
+  margin-top: -20px;
+  margin-right:-10px;
+}
+.news {
+  float: right;
+  width: 800px;
+  height: 1150px; 
+  background: #cccc;
+  padding: 50px;
+  margin-top: -45px;
+  margin-right: -20px;
+  margin-left: 10px;
+  }
+.bigboi{
+font-size: large;
+color: black;
+}
+.facts {
+  float:left ;
+  height: 1200px;
+  width: 495px; 
+  color: white;
+  background: black;
+  padding: 25px;
+  font-size: xx-large;
+  margin-left: -10px;
+}
+.footer {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  float: center;
+overflow: hidden;
+height: 110px;
+width: 40cm;
+margin-left: -10px;
+margin-bottom: -10px;
+}
+.bigboi2{
+font-size: xx-large;
+color: black;
+}
+.bigboi3{
+font-size: x-large;
+color: black;
+}
+
+.column {
+  float: left;
+  width: 443px;
+  padding: 20px;
+  height: 600px;
+background-color: #ccc;
+margin-top: -20px;
+margin-left: -10px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
